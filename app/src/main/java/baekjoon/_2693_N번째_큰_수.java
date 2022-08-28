@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 public class _2693_N번째_큰_수 {
 
-  public static void main(String[] args) throws NumberFormatException, IOException {
+  public static void main(String[] args) throws IOException {
 
     // 배열 입력
     //    Scanner sc = new Scanner(System.in);
