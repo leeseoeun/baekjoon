@@ -22,7 +22,7 @@ public class _2908_상수 {
     if (number > number2) {
       System.out.println(number);
 
-    } else {
+    } else if (number < number2){
       System.out.println(number2);
     }
   }
