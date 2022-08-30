@@ -38,12 +38,13 @@ public class _1026_보물 {
     Arrays.sort(arrA);
     Arrays.sort(arrB, Comparator.reverseOrder());   // Comparator 사용 시 int -> Integer
 
-    int answer = 0;
+    int min = 0;
     for (int i = 0; i < number; i++) {
-      answer += (arrA[i] * arrB[i]);
+      min += (arrA[i] * arrB[i]);
     }
 
-    System.out.println(answer);
+    System.out.println(min);
+
   }
 
 }
