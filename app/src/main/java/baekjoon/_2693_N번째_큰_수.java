@@ -31,7 +31,7 @@ public class _2693_N번째_큰_수 {
 
       // 정답 출력
       Arrays.sort(numArr);
-      // System.out.println(numArr[7]);
+      // System.out.println(numArr[7]); // 두번째부터 sysout까지 읽어서 안 됨
       // bw.write(numArr[7]);
       sb.append(numArr[7] + "\n");
     }
